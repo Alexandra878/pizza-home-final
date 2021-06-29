@@ -1,0 +1,32 @@
+@import "variables.scss";
+@import "contacto.scss";
+@import "home.scss";
+@import "footer.scss";
+@import "nosotros.scss";
+
+*{
+    margin:0;
+    padding:0;}
+
+
+
+    .galeria {
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows:300px;
+        grid-row-gap:15px;
+    }
+
+    .imagen {
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+    
+    }
+
+    
+
+    /*h1:hover {
+
+        transform: scale(1.2);
+    }*/
