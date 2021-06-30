@@ -8,7 +8,11 @@
   font-family: Arial, Helvetica, sans-serif; }
 
 .contenedor__contacto {
-  background-color: coral; }
+  background-color: #6d6562;
+  text-align: left; }
+
+.input__type {
+  text-align: right; }
 
 h1 {
   text-align: center;
@@ -158,6 +162,14 @@ p {
 
 .section class banner {
   background: #cc866d; }
+
+.div .imagennosotros {
+  width: 10%;
+  max-width: 10px;
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap; }
 
 * {
   margin: 0;
