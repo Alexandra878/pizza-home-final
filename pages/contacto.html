@@ -9,94 +9,57 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
-    <title>PizzaHome Contacto</title>
+    <title>PizzaHome Contacto</title> 
 </head>
-<header>
-  <h1>PizzaHome</h1>
-</header>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="galeria.html">Galeria</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="menu.html">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="contacto.html" tabindex="-1" aria-contacto="true">Contacto</a>
-          </li>
-        </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="../img/logo2.png" alt="" width="70" height="70" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menú</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <div class="contenedor__contacto">
-      
-    <h3 class="contacto__title">Formulario de contacto y pedidos</h3>
-   
-    <div class="contacto">
-    
-    <form action="gracias_enviar.php" method="GET" enctype="application/x-www-form-urlencoded"><br>
-    
-        <label for="nombre"> Nombre</label>
-        <br>
-        <input type="text" name="nombre"><br>
-    
-        <label for="apellido"> Apellido</label>
-        <br>
-        <input type="text" name="apellido"><br>
-    
-        Email:
-        <br>
-        <input type="email"><br>
+    </nav>
+</header>
 
-        Telefono 
-        <br>
-        <input type="telefono de contacto" name="telefono de contacto" id=""> <br>
 
-        Direccion
-        <br>
-        <input type="direccion de envio" name="direccion de envio" id=""> <br>
+<form action="">
+  <h4>Contacto</h4>
+  <input type="text" name="Nombre" placeholder="Nombre">
+  <input type="text" name="Email" placeholder="Email">
+  <input type="text" name="Teléfono" placeholder="Teléfono">
+  <input type="text" name="Dirección" placeholder="Dirección">
+  <textarea name="mensaje"  placeholder="escriba aquí su mensaje"></textarea>
+  <input type="button" value="Enviar" id="boton">
+</form>
 
-        
-        Envio
-        <br>
-        <select name="lugar de envio" id="">
-            <option value="casa">casa</option>
-            <option value="trabajo">trabajo</option>
-            <option value="parque">parque</option>
-            <option value="Ninguno">Ninguno</option>
-        </select>
 
-        <br>
-        Individual o familiar <br>
-        Individual <input type="radio" name="Individual" value="Individual"><br>
-        familiar <input type="radio" name="familiar"  value="familiar"><br><br>
-        retiro en local <input type="checkbox" name="aceptar" value="1"><br><br>
-        Detalle su pedido <br>
-    
-        <textarea name="" id="" cols="30" rows="10"></textarea><br>
-      
-        <input type="submit"> <input type="reset" value="Limpiar campo"> 
-      
-    
-    </form> <!--fomrulario-->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.0214631896033!2d-56.202147685041865!3d-34.90591088105651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802ba7932117%3A0x987d8fe2f97f5d4!2sPlaza%20Independencia%20749%2C%2011000%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1624884926184!5m2!1ses!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    
-</div>
 
-   
 
-</div>
+
+
 <footer>
   <div class="footer-container">
     <div class="footer-main">
@@ -108,7 +71,7 @@
 
 
       <div class="footer-columna">
-        <h3>Direccion</h3>
+        <h3>Dirección</h3>
         <span class="fas fa-address-book"> <p> 749 Ciudadela - Montevideo</p></span>
         <span class="fas fa-phone"> <p> + 598 95 966 360</p></span>
         <span class="fas fa-envelope"> <p>info@homepizza.com</p></span>
@@ -118,7 +81,7 @@
         <h3>Sobre Nosotros</h3>
         <p>Recopilación de las mejores
           recetas de pizza del mundo.
-          Directo al Paladar y nuestro mejor receta de masa. 
+          Directo al Paladar y nuestra mejor receta de masa. 
         </p>
       </div>
     </div>

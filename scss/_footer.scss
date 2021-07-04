@@ -16,11 +16,16 @@
 
 .footer-main .footer-columna {
     width: calc(100% / 3);
-    text-align: justify;
+    padding-left:20px;
+    padding-right:20px;
+}
+.footer-columna p {
+    text-align:justify;
 }
 
 .footer-main .footer-columna:nth-child(2) {
     padding: 0 20px;
+    padding-left:20px;
 }
 
 .footer-main .footer-columna h3 {
@@ -92,13 +97,13 @@ width: 70%;
     text-align: center;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 360px) {
 
-.info main {
-    padding: 30px 100px;
+.footer-main {
+    padding-left:20px;
 }
 .footer-main .footer-columna {
-    padding: 0 10px;
+    padding-left:20px;
 }
 .footer-main .footer-columna h3 {
     font-size: 28px;
@@ -107,16 +112,14 @@ width: 70%;
     font-size: 14px;
 }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
 
-    .info main {
-        padding: 30px 30px;
-    }
+    
     .footer-main h3 {
         font-size: 30px;
     }
     .footer-main {
-        padding: 10px 0;
+        padding-left:20px;
     }
 
     .footer-main .footer-columna {
